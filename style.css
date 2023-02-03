@@ -1,7 +1,29 @@
+h1{
+  color: rgb(190, 38, 38);
+  font-size: 3rem;    
+}
 table {
-    border-collapse: collapse;
-    
+  border-collapse: collapse;
+  border: 4px solid rgb(190, 38, 38);
+  letter-spacing: 2px;
+  font-size: 1.4rem;    
   }
-  th, td {
-    padding: 15px;
+  td, th {
+    border: 1px solid rgb(167, 25, 25);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(241, 238, 223);
+  }
+  
+  td {
+    text-align: center;
+  }
+  tr:nth-child(even) td {
+    background-color: rgb(223, 196, 121);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(201, 153, 153);
   }
