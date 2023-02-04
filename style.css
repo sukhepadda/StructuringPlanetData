@@ -2,6 +2,10 @@ h1{
   color: rgb(190, 38, 38);
   font-size: 3rem;    
 }
+h2{
+  color: rgb(190, 38, 38);
+  font-size: 1.5rem;    
+}
 table {
   border-collapse: collapse;
   border: 4px solid rgb(190, 38, 38);
